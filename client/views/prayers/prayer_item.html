@@ -1,0 +1,8 @@
+<template name="prayerItem">
+  <div class="prayer">
+    <div class="prayer-content">
+      <h3><div><a href="prayers/{{userId}}">{{author}}</a> on {{datePosted}}</div>{{request}} </h3>
+			<div>{{#if ownPrayer}}<a href="{{prayerEditPath this}}">Edit</a>{{/if}}</div>
+    </div>
+  </div>
+</template>
