@@ -8,3 +8,9 @@ preserve-inputs
 bootstrap
 accounts-password
 accounts-facebook
+#standard-app-packages
+paginated-subscription
+accounts-ui-bootstrap-dropdown
+page-js-ie-support
+router
+spin
